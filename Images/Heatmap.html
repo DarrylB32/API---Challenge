@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "36c72d22fc654396b1ba94c50df6ceb1": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "100%",
+        "width": "100%"
+      }
+    },
+    "88b01bfb475b417eaf5a4f863c4b1369": {
+      "model_name": "PlainmapModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "configuration": {
+          "api_key": "AIzaSyCfetNEotPinWLtaR2UfwX8CISHEXOn2tA"
+        },
+        "data_bounds": [
+          [
+            -40.88856681223595,
+            -179.99999
+          ],
+          [
+            85.0,
+            179.99999
+          ]
+        ],
+        "initial_viewport": {
+          "type": "DATA_BOUNDS"
+        },
+        "layers": [
+          "IPY_MODEL_ee8602e86d15431b9b19a13e68d2ba07"
+        ],
+        "layout": "IPY_MODEL_36c72d22fc654396b1ba94c50df6ceb1"
+      }
+    },
+    "b9d830a086294a0494d8b58afee85a11": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "26ee853c597049e583880c9bdb2a7836": {
+      "model_name": "ToolbarModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "layer_controls": [],
+        "layout": "IPY_MODEL_b9d830a086294a0494d8b58afee85a11"
+      }
+    },
+    "1f6daff8665f4f5dbe218d54cc498f6c": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "5747e7391b5c418f96e67fc337b7be82": {
+      "model_name": "ErrorsBoxModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "errors": [],
+        "layout": "IPY_MODEL_1f6daff8665f4f5dbe218d54cc498f6c"
+      }
+    },
+    "8be2190e11244b3cb7b175fc2a253006": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "420px"
+      }
+    },
+    "ec3b861a9f524f80bde1702f014db7e6": {
+      "model_name": "FigureModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "_errors_box": "IPY_MODEL_5747e7391b5c418f96e67fc337b7be82",
+        "_map": "IPY_MODEL_88b01bfb475b417eaf5a4f863c4b1369",
+        "_toolbar": "IPY_MODEL_26ee853c597049e583880c9bdb2a7836",
+        "layout": "IPY_MODEL_8be2190e11244b3cb7b175fc2a253006"
+      }
+    },
+    "ee8602e86d15431b9b19a13e68d2ba07": {
+      "model_name": "WeightedHeatmapLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "data_bounds": [
+          [
+            -40.88856681223595,
+            -179.99999
+          ],
+          [
+            85.0,
+            179.99999
+          ]
+        ],
+        "dissipating": false,
+        "gradient": null,
+        "locations": [
+          [
+            -21.36,
+            55.77
+          ],
+          [
+            64.38,
+            -173.3
+          ],
+          [
+            71.97,
+            102.5
+          ],
+          [
+            26.12,
+            127.67
+          ],
+          [
+            -54.8,
+            -68.3
+          ],
+          [
+            -0.74,
+            -90.35
+          ],
+          [
+            53.68,
+            86.95
+          ],
+          [
+            64.86,
+            -147.8
+          ],
+          [
+            19.73,
+            -155.09
+          ],
+          [
+            60.14,
+            -45.24
+          ],
+          [
+            42.6,
+            -73.97
+          ],
+          [
+            65.42,
+            -52.9
+          ],
+          [
+            42.1,
+            -79.24
+          ]
+        ],
+        "max_intensity": 100.0,
+        "point_radius": 1.0,
+        "weights": [
+          56.0,
+          66.0,
+          85.0,
+          88.0,
+          60.0,
+          73.0,
+          83.0,
+          81.0,
+          78.0,
+          91.0,
+          82.0,
+          85.0,
+          83.0
+        ]
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "ec3b861a9f524f80bde1702f014db7e6"}
+</script>
+
+</body>
+</html>
