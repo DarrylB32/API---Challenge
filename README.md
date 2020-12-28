@@ -29,6 +29,7 @@ This script then uses Google Places API to find the first hotel for each city lo
 
 ### Tech Stack
 * Python
+* Jupyter Notebook
 * OpenWeatherMap API Key
 
 ### User Instructions
