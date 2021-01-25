@@ -33,7 +33,7 @@ This script then uses Google Places API to find the first hotel for each city lo
 * OpenWeatherMap API Key
 
 ### User Instructions
-* Clone the repository: git clone https://github.com/DarrylB32/API-Weather_Analysis_and_Mock_Vacation_Planning_with_OpenWeatherMapAPI
+* Clone the repository: git clone https://github.com/DarrylB32/API-Weather_Analysis_and_Mock_Vacation_Planning_with_OpenWeatherMapAPI.git 
 * Open and execute [WeatherPy](WeatherPy/WeatherPy.ipynb) file.
 * Open and execute [VacationPy](VacationPy/VacationPy.ipynb) file.
 
